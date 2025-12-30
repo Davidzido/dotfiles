@@ -11,7 +11,8 @@ config.initial_cols = 120
 config.initial_rows = 28
 
 config.enable_tab_bar = false
-config.window_decorations = "NONE"
+-- Uncomment when running with WSL on Windows. Make sure the right distro is specified, run 'wsl -l -v' to get the right name.
+-- config.default_domain = "FedoraLinux-43"
 
 -- or, changing the font size and color scheme.
 config.font_size = 13
