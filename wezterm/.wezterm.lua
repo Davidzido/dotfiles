@@ -16,7 +16,7 @@ config.enable_tab_bar = false
 
 -- or, changing the font size and color scheme.
 config.font_size = 13
-config.color_scheme = 'Horizon Dark (base16)'
+config.color_scheme = 'Tokyo Night Storm'
 config.font = wezterm.font {
 	family = 'JetBrainsMono Nerd Font',
 	weight = 'Bold'
