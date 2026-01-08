@@ -10,13 +10,13 @@
 
 Clone the repo to your home directory
 
-```
+```sh
 git clone https://github.com/Davidzido/dotfiles.git
 ```
 
 Now to create symlinks with the config files, use the stow command
 
-```
+```sh
 cd ~/dotfiles/
 stow FOLDER
 ```
