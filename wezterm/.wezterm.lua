@@ -11,6 +11,7 @@ config.initial_cols = 120
 config.initial_rows = 28
 
 config.enable_tab_bar = false
+config.default_cursor_style = 'SteadyBar'
 -- Uncomment when running with WSL on Windows. Make sure the right distro is specified, run 'wsl -l -v' to get the right name.
 -- config.default_domain = "FedoraLinux-43"
 
@@ -18,8 +19,8 @@ config.enable_tab_bar = false
 config.font_size = 13
 config.color_scheme = 'Tokyo Night Storm'
 config.font = wezterm.font {
-	family = 'JetBrainsMono Nerd Font',
-	weight = 'Bold'
+	family = 'JetBrains Mono',
+	weight = 'DemiBold'
 }
 
 -- Finally, return the configuration to wezterm:
